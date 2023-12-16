@@ -1,0 +1,1 @@
+This project involves retrieving the weather report based on the location name. However, it has not been deployed yet.

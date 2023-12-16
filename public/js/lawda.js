@@ -13,7 +13,7 @@ function removeText() {
 }
 
 function fetchdata(city) {
-    fetch(`http://localhost:3000/weather?place=${encodeURIComponent(city)}`).then((bing) => {
+    fetch(`/weather?place=${encodeURIComponent(city)}`).then((bing) => {
         return bing.json();
     }).then((lawda) => {
         removeText();

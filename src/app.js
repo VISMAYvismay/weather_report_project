@@ -6,7 +6,7 @@ const express = require("express")
 
 const application = express();
 
-
+const port=process.env.PORT || 3000;
 
 // console.log(__dirname);
 // console.log(__filename);
@@ -100,7 +100,7 @@ application.get("*", (req, res) => {
 
 
 
-application.listen(3000, () => {
+application.listen(port, () => {
     console.log("mahesh was lawda!!!")
 });
 
